@@ -1,0 +1,35 @@
+.firstsection{
+    margin-top: 120px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.firstsection >div{
+    width: 30%;
+    
+}
+.leftsection{
+   font-size: 3rem;
+   margin: 80px 0px;
+   color: rgb(105, 101, 101);
+   font-weight: bolder;
+}
+.disc{
+    color: black;
+    font-weight: lighter;
+}
+.rightsection img{
+   width: 80%;
+   margin: 20px 0;
+}
+.purple{
+    color: rgb(7, 37, 102);
+}
+.element{
+    color: rgb(143, 33, 240);   
+}
+img{
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 400px;
+}

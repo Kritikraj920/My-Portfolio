@@ -1,0 +1,53 @@
+.contact-container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.contact-left{
+    height: 450px;
+    width: 450px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff13;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+.contact-left-tittle h1{
+    font-weight: 600;
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+.contact-left-tittle hr{
+    border: none;
+    width: 120px;
+    height: 5px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.contact-input{
+    width: 400px;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding-left: 25px;
+    font-weight: 500;
+    border-radius: 50px;
+}
+.contact-left textarea{
+    height: 140px;
+    margin-top: 15px;
+    border-radius: 20px;
+}
+.contact-input:focus{
+    border: 2px solid orange;
+}
+.contact-left button{
+    margin-left: 50px;
+    margin-top: 10px;
+}
