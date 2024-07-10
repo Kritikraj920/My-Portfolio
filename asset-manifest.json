@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/My-Portfolio/static/css/main.bf67b43a.css",
+    "main.js": "/My-Portfolio/static/js/main.758ebe03.js",
+    "static/media/contact.png": "/My-Portfolio/static/media/contact.fe07f54d2b5b6a90464d.png",
+    "static/media/Kritik.pdf": "/My-Portfolio/static/media/Kritik.5d0382762364374b573e.pdf",
+    "static/media/bg1.png": "/My-Portfolio/static/media/bg1.79af9a19e72e3bb9401e.png",
+    "static/media/bootstrap-icons.woff?": "/My-Portfolio/static/media/bootstrap-icons.39795c0b4513de014cf8.woff",
+    "static/media/img2.jpg": "/My-Portfolio/static/media/img2.544fa25cae0e630ff5bd.jpg",
+    "static/media/bootstrap-icons.woff2?": "/My-Portfolio/static/media/bootstrap-icons.b7bcc075b395c14ce8c2.woff2",
+    "static/media/header.jpg": "/My-Portfolio/static/media/header.c5a697da7bf29474fe2c.jpg",
+    "static/media/man.png": "/My-Portfolio/static/media/man.735f5925c4fa00628e42.png",
+    "static/media/img1.png": "/My-Portfolio/static/media/img1.362c94603b4e06ee9aaa.png",
+    "static/media/img3.png": "/My-Portfolio/static/media/img3.ddd560dbe97cf166b3fc.png",
+    "index.html": "/My-Portfolio/index.html",
+    "main.bf67b43a.css.map": "/My-Portfolio/static/css/main.bf67b43a.css.map",
+    "main.758ebe03.js.map": "/My-Portfolio/static/js/main.758ebe03.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bf67b43a.css",
+    "static/js/main.758ebe03.js"
+  ]
+}
