@@ -1,39 +1,66 @@
 import React from 'react'
-import img1 from './img1.png'
-import img2 from './img2.jpg'
-import img3 from './img3.png'
-import '../Project/Projectstyle.css'
+import './Projectstyle.css'
+
+const projects = [
+  {
+    number: '01',
+    type: 'ENTERPRISE AUTOMATION',
+    title: 'Audit workflow toolkit',
+    description: 'Data extraction, validation, reconciliation, and comparative reporting workflows designed to reduce manual effort across audit and compliance processes.',
+    stack: ['Automation', 'Data analysis', 'AI Copilot', 'MCP'],
+  },
+  {
+    number: '02',
+    type: 'WEB APPLICATION',
+    title: 'Tic Tac Toe',
+    description: 'A lightweight two-player game with a familiar 3 × 3 board, turn-by-turn play, and a simple, focused interface.',
+    stack: ['JavaScript', 'HTML', 'CSS'],
+    link: 'https://github.com/Kritikraj920/Tic-Tac-Toe',
+  },
+  {
+    number: '03',
+    type: 'WEB APPLICATION',
+    title: 'Personal portfolio',
+    description: 'A portfolio experience bringing together projects, professional background, and ways to connect.',
+    stack: ['React', 'JavaScript', 'CSS'],
+    link: 'https://github.com/Kritikraj920/Portfolio',
+  },
+]
+
 export default function Project() {
   return (
-    <>
-    <div className="heding"><h1>Here Is My Projects</h1></div>
-    <div className='card-container'>
-      <div className="card" style={{width: '18rem'}}>
-  <img className="card-img" src={img1}alt=''/>
-  <div className="card-body">
-    <h5 className="card-title">Tic Tac Toe</h5>
-    <p className="card-text">Tic Tac Toe is a simple game played on a 3x3 grid. Two players take turns marking X and O, aiming to get three of their marks in a row horizontally, vertically, or diagonally, while blocking their opponent's moves..</p>
-    <a href="https://github.com/Kritikraj920/Tic-Tac-Toe" className="btn" target='_blank'  rel="noreferrer">Go somewhere</a>
-  </div>
-</div>
-<div className="card" style={{width: '18rem'}}>
-  <img className="card-img" src={img2}alt=''/>
-  <div className="card-body">
-    <h5 className="card-title">Portfolio</h5>
-    <p className="card-text">A portfolio showcases a person's work, skills, and achievements. It typically includes projects, artwork, writing samples, and qualifications to demonstrate expertise and attract opportunities.</p>
-    <a href="https://github.com/Kritikraj920/Portfolio" className="btn" target='_blank'  rel="noreferrer">Go somewhere</a>
-  </div>
-</div>
-<div className="card" style={{width: '18rem'}}>
-  <img className="card-img" src={img3}alt=''/>
-  <div className="card-body">
-    <h5 className="card-title">iGraphics</h5>
-    <p className="card-text">A printing press is a machine used to mass-produce printed material by transferring inked images onto paper or other substrates and dissemination of information..</p>
-    <a href="https://github.com/Kritikraj920/iGraphics" className="btn" target='_blank'  rel="noreferrer">Go somewhere</a>
-  </div>
-</div>
-    </div>
-    <hr />
-    </>
+    <section className="content-section section-wrap projects-section" id="projects">
+      <div className="projects-heading">
+        <div className="section-heading">
+          <span className="section-kicker">SELECTED WORK</span>
+          <h2>Ideas made <span className="gradient-text">real.</span></h2>
+        </div>
+        <a className="inline-link github-link" href="https://github.com/Kritikraj920" target="_blank" rel="noreferrer">
+          More on GitHub <span>↗</span>
+        </a>
+      </div>
+      <div className="project-grid">
+        {projects.map((project) => (
+          <article className="project-card" key={project.number}>
+            <div className="project-art">
+              <span className="project-number">{project.number}</span>
+              <span className="project-orbit" />
+              <span className="project-symbol">{project.number === '01' ? '✧' : project.number === '02' ? '× ○' : '⌘'}</span>
+              <span className="project-type">{project.type}</span>
+            </div>
+            <div className="project-body">
+              <h3>{project.title}</h3>
+              <p>{project.description}</p>
+              <div className="project-tags">{project.stack.map((item) => <span key={item}>{item}</span>)}</div>
+              {project.link && (
+                <a className="project-link" href={project.link} target="_blank" rel="noreferrer">
+                  View project <span>↗</span>
+                </a>
+              )}
+            </div>
+          </article>
+        ))}
+      </div>
+    </section>
   )
 }

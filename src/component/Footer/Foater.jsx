@@ -1,20 +1,14 @@
 import React from 'react'
 import '../Footer/Footerstyle.css'
-export default function footer() {
+
+export default function Footer() {
   return (
-    <div>
-      <footer>
-        <div className="this">
-      <p>© 2024 My Portfolio. All rights reserved.</p>
-      <div className="footer-icon">
-      <a href="https://www.facebook.com/kritikraj.kritikraj.5" target="_blank" rel="noopener noreferrer"><i class="bi bi-instagram"></i></a>
-      <a href="https://www.facebook.com/kritikraj.kritikraj.5" target="_blank" rel="noopener noreferrer"> <i class="bi bi-facebook"></i></a>
-      <a href="https://www.linkedin.com/in/kritik-raj-279724206/" target="_blank" rel="noopener noreferrer"><i class="bi bi-linkedin"></i></a>
-      <a href="https://github.com/Kritikraj920" target="_blank" rel="noopener noreferrer"> <i class="bi bi-github"></i></a>
-      <a href="https://wa.me/6299850134" target="_blank" rel="noopener noreferrer"><i class="bi bi-whatsapp"></i></a>
+    <footer className="site-footer">
+      <div className="footer-inner section-wrap">
+        <a className="footer-brand" href="#home">K<span>.</span> <span>Kritik Raj</span></a>
+        <p>Designed with care, built with curiosity.</p>
+        <span>© {new Date().getFullYear()} Kritik Raj</span>
       </div>
-      </div>
-      </footer>
-    </div>
+    </footer>
   )
 }
