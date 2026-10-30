@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 232" width="500" height="232" role="img" aria-label="GitHub shinobi trophies">
+<defs><style><![CDATA[
+text{font-family:'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace}
+@keyframes popCell{0%{opacity:0;transform:translateY(12px) scale(.88)}70%{opacity:1;transform:translateY(-2px) scale(1.02)}100%{opacity:1;transform:translateY(0) scale(1)}}
+@keyframes rankGlow{0%,100%{opacity:.75}50%{opacity:1}}
+@keyframes shineX2{0%{transform:translateX(-140px) skewX(-15deg)}60%,100%{transform:translateX(560px) skewX(-15deg)}}
+.cell{opacity:0;animation:popCell .55s cubic-bezier(.2,.8,.3,1.2) forwards;transform-box:fill-box;transform-origin:center}
+.rk{animation:rankGlow 2.2s ease-in-out infinite}
+.sh2{animation:shineX2 5s ease-in-out 2s infinite}
+]]></style>
+<linearGradient id="shg2" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#fff" stop-opacity="0"/><stop offset="50%" stop-color="#fff" stop-opacity=".07"/><stop offset="100%" stop-color="#fff" stop-opacity="0"/></linearGradient>
+<clipPath id="tc"><rect x="0" y="0" width="500" height="232" rx="14"/></clipPath>
+</defs>
+
+<!-- Card 1: Master Shinobi (Col 0, Row 0) -->
+<g class="cell" style="animation-delay:0.20s">
+  <rect x="14" y="12" width="150" height="98" rx="12" fill="#170e28" stroke="#ff7eb6" stroke-opacity=".55" stroke-width="1.2"/>
+  <text x="36" y="42" text-anchor="middle" font-size="22">🍥</text>
+  <text class="rk" x="150" y="38" text-anchor="end" font-size="18" font-weight="bold" fill="#ff7eb6">SSS</text>
+  <text x="89" y="66" text-anchor="middle" font-size="12" font-weight="bold" fill="#e6edf3">Master Shinobi</text>
+  <text x="89" y="82" text-anchor="middle" font-size="10" fill="#9aa4b2">Enterprise Lead</text>
+  <rect x="26" y="92" width="126" height="4" rx="2" fill="#241740"/>
+  <rect x="26" y="92" width="0" height="4" rx="2" fill="#ff7eb6">
+    <animate attributeName="width" from="0" to="126" dur="0.9s" begin="0.4s" fill="freeze" calcMode="spline" keySplines=".2 .8 .3 1"/>
+  </rect>
+</g>
+
+<!-- Card 2: Starstruck (Col 1, Row 0) -->
+<g class="cell" style="animation-delay:0.35s">
+  <rect x="175" y="12" width="150" height="98" rx="12" fill="#170e28" stroke="#fde047" stroke-opacity=".55" stroke-width="1.2"/>
+  <text x="197" y="42" text-anchor="middle" font-size="22">🌟</text>
+  <text class="rk" x="311" y="38" text-anchor="end" font-size="18" font-weight="bold" fill="#fde047">S</text>
+  <text x="250" y="66" text-anchor="middle" font-size="12" font-weight="bold" fill="#e6edf3">Starstruck</text>
+  <text x="250" y="82" text-anchor="middle" font-size="10" fill="#9aa4b2">GitHub Verified</text>
+  <rect x="187" y="92" width="126" height="4" rx="2" fill="#241740"/>
+  <rect x="187" y="92" width="0" height="4" rx="2" fill="#fde047">
+    <animate attributeName="width" from="0" to="126" dur="0.9s" begin="0.55s" fill="freeze" calcMode="spline" keySplines=".2 .8 .3 1"/>
+  </rect>
+</g>
+
+<!-- Card 3: Code Architect (Col 2, Row 0) -->
+<g class="cell" style="animation-delay:0.50s">
+  <rect x="336" y="12" width="150" height="98" rx="12" fill="#170e28" stroke="#e879f9" stroke-opacity=".55" stroke-width="1.2"/>
+  <text x="358" y="42" text-anchor="middle" font-size="22">⭐</text>
+  <text class="rk" x="472" y="38" text-anchor="end" font-size="18" font-weight="bold" fill="#e879f9">A</text>
+  <text x="411" y="66" text-anchor="middle" font-size="12" font-weight="bold" fill="#e6edf3">Code Architect</text>
+  <text x="411" y="82" text-anchor="middle" font-size="10" fill="#9aa4b2">REST APIs &amp; Arch</text>
+  <rect x="348" y="92" width="126" height="4" rx="2" fill="#241740"/>
+  <rect x="348" y="92" width="0" height="4" rx="2" fill="#e879f9">
+    <animate attributeName="width" from="0" to="126" dur="0.9s" begin="0.70s" fill="freeze" calcMode="spline" keySplines=".2 .8 .3 1"/>
+  </rect>
+</g>
+
+<!-- Card 4: AI Pioneer (Col 0, Row 1) -->
+<g class="cell" style="animation-delay:0.65s">
+  <rect x="14" y="122" width="150" height="98" rx="12" fill="#170e28" stroke="#c084fc" stroke-opacity=".55" stroke-width="1.2"/>
+  <text x="36" y="152" text-anchor="middle" font-size="22">🤖</text>
+  <text class="rk" x="150" y="148" text-anchor="end" font-size="18" font-weight="bold" fill="#c084fc">S</text>
+  <text x="89" y="176" text-anchor="middle" font-size="12" font-weight="bold" fill="#e6edf3">AI Pioneer</text>
+  <text x="89" y="192" text-anchor="middle" font-size="10" fill="#9aa4b2">Copilot &amp; MCP</text>
+  <rect x="26" y="202" width="126" height="4" rx="2" fill="#241740"/>
+  <rect x="26" y="202" width="0" height="4" rx="2" fill="#c084fc">
+    <animate attributeName="width" from="0" to="126" dur="0.9s" begin="0.85s" fill="freeze" calcMode="spline" keySplines=".2 .8 .3 1"/>
+  </rect>
+</g>
+
+<!-- Card 5: Committer (Col 1, Row 1) -->
+<g class="cell" style="animation-delay:0.80s">
+  <rect x="175" y="122" width="150" height="98" rx="12" fill="#170e28" stroke="#7dd3fc" stroke-opacity=".55" stroke-width="1.2"/>
+  <text x="197" y="152" text-anchor="middle" font-size="22">💻</text>
+  <text class="rk" x="311" y="148" text-anchor="end" font-size="18" font-weight="bold" fill="#7dd3fc">A</text>
+  <text x="250" y="176" text-anchor="middle" font-size="12" font-weight="bold" fill="#e6edf3">Committer</text>
+  <text x="250" y="192" text-anchor="middle" font-size="10" fill="#9aa4b2">800+ Commits</text>
+  <rect x="187" y="202" width="126" height="4" rx="2" fill="#241740"/>
+  <rect x="187" y="202" width="0" height="4" rx="2" fill="#7dd3fc">
+    <animate attributeName="width" from="0" to="126" dur="0.9s" begin="1.0s" fill="freeze" calcMode="spline" keySplines=".2 .8 .3 1"/>
+  </rect>
+</g>
+
+<!-- Card 6: Data Guardian (Col 2, Row 1) -->
+<g class="cell" style="animation-delay:0.95s">
+  <rect x="336" y="122" width="150" height="98" rx="12" fill="#170e28" stroke="#4ade80" stroke-opacity=".55" stroke-width="1.2"/>
+  <text x="358" y="152" text-anchor="middle" font-size="22">🛡️</text>
+  <text class="rk" x="472" y="148" text-anchor="end" font-size="18" font-weight="bold" fill="#4ade80">A</text>
+  <text x="411" y="176" text-anchor="middle" font-size="12" font-weight="bold" fill="#e6edf3">Data Guardian</text>
+  <text x="411" y="192" text-anchor="middle" font-size="10" fill="#9aa4b2">Pipelines &amp; Audit</text>
+  <rect x="348" y="202" width="126" height="4" rx="2" fill="#241740"/>
+  <rect x="348" y="202" width="0" height="4" rx="2" fill="#4ade80">
+    <animate attributeName="width" from="0" to="126" dur="0.9s" begin="1.15s" fill="freeze" calcMode="spline" keySplines=".2 .8 .3 1"/>
+  </rect>
+</g>
+
+<g clip-path="url(#tc)"><rect class="sh2" x="0" y="0" width="120" height="232" fill="url(#shg2)" transform="skewX(-15)"/></g>
+</svg>

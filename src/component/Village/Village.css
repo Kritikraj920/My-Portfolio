@@ -1,0 +1,74 @@
+.village-theme-switcher {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 20px 0 28px 0;
+}
+
+.village-btn {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  font-size: 0.88rem;
+  padding: 8px 18px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.04);
+  color: var(--text-muted);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.village-btn:hover {
+  background: rgba(255, 255, 255, 0.08);
+  color: #fff;
+  border-color: rgba(74, 168, 255, 0.3);
+}
+
+.village-btn.active {
+  background: linear-gradient(135deg, var(--raikiri-blue), var(--ninja-purple));
+  color: #0b0d13;
+  border-color: transparent;
+  box-shadow: 0 4px 18px rgba(74, 168, 255, 0.35);
+}
+
+.village-canvas-frame {
+  border-color: rgba(74, 168, 255, 0.28);
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.75), 0 0 35px rgba(74, 168, 255, 0.12);
+}
+
+.village-svg-wrapper {
+  width: 100%;
+  line-height: 0;
+  background: #0b0d13;
+}
+
+.village-svg-img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.village-canvas-footer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 12px 20px;
+  background: rgba(23, 27, 40, 0.95);
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.footer-desc {
+  font-size: 0.88rem;
+  color: var(--text-muted);
+}
+
+.cron-tag {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  color: var(--chakra-amber);
+  background: rgba(255, 181, 46, 0.1);
+  padding: 3px 8px;
+  border-radius: 4px;
+}

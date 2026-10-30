@@ -1,0 +1,103 @@
+.id-view-switcher {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin: 20px 0 24px 0;
+}
+
+.view-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 20px;
+  background: rgba(255, 255, 255, 0.04);
+  color: var(--text-muted);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  font-family: var(--font-heading);
+  font-weight: 700;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: all 0.22s ease;
+}
+
+.view-btn:hover {
+  background: rgba(255, 255, 255, 0.08);
+  color: #fff;
+  border-color: rgba(255, 122, 26, 0.3);
+}
+
+.view-btn.active {
+  background: linear-gradient(135deg, rgba(255, 122, 26, 0.2), rgba(226, 56, 63, 0.2));
+  color: #fff;
+  border-color: var(--chakra-orange);
+  box-shadow: 0 4px 18px rgba(255, 122, 26, 0.25);
+}
+
+.badge-tag {
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  font-weight: 700;
+  color: var(--chakra-amber);
+  background: rgba(255, 181, 46, 0.12);
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+.ninja-id-canvas {
+  border-color: rgba(255, 122, 26, 0.35);
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.75), 0 0 35px rgba(255, 122, 26, 0.14);
+}
+
+.id-svg-display {
+  width: 100%;
+  line-height: 0;
+  background: #0b0d13;
+}
+
+.id-svg-img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Metrics Grid */
+.id-metrics-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+  margin-top: 24px;
+}
+
+.id-metric-card {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.metric-icon {
+  font-size: 2rem;
+  line-height: 1;
+}
+
+.metric-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.metric-val {
+  font-family: var(--font-heading);
+  font-size: 1.6rem;
+  font-weight: 800;
+  color: #fff;
+  line-height: 1.1;
+}
+
+.metric-lbl {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  color: var(--text-dim);
+  text-transform: uppercase;
+  margin-top: 4px;
+}
