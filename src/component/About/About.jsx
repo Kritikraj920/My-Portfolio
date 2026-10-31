@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import './Aboutstyle.css'
 
 const ninjaWaySvg = `${process.env.PUBLIC_URL}/assets/imgs/ninja-way.svg?v=3`
-const jutsuStackSvg = `${process.env.PUBLIC_URL}/assets/imgs/jutsu-stack.svg?v=3`
+const jutsuStackSvg = `${process.env.PUBLIC_URL}/assets/imgs/jutsu-stack.svg?v=4`
 const meghaStatsSvg = `${process.env.PUBLIC_URL}/assets/imgs/megha-stats.svg?v=3`
 const meghaLangsSvg = `${process.env.PUBLIC_URL}/assets/imgs/megha-langs.svg?v=3`
 const meghaTrophiesSvg = `${process.env.PUBLIC_URL}/assets/imgs/megha-trophies.svg?v=3`

@@ -184,7 +184,7 @@ text{font-family:'JBM',ui-monospace,Menlo,Consolas,monospace}
   </rect>
   <rect x="957" y="374" width="28" height="28" rx="8" fill="#F05032" fill-opacity=".18"/>
   <text x="971" y="393" text-anchor="middle" font-size="14" font-weight="bold" fill="#F05032">⌥</text>
-  <text class="jb" x="993" y="393" font-size="12" fill="#eef1f7">Git & GitHub</text>
+  <text class="jb" x="993" y="393" font-size="12" fill="#eef1f7">Git &amp; GitHub</text>
 </g>
 <g class="chip" style="animation-delay:1.13s">
   <rect x="1106" y="360" width="152" height="56" rx="14" fill="#EC4899" fill-opacity=".09"/>
@@ -193,7 +193,7 @@ text{font-family:'JBM',ui-monospace,Menlo,Consolas,monospace}
   </rect>
   <rect x="1118" y="374" width="28" height="28" rx="8" fill="#EC4899" fill-opacity=".18"/>
   <text x="1132" y="393" text-anchor="middle" font-size="14" font-weight="bold" fill="#EC4899">🤖</text>
-  <text class="jb" x="1154" y="393" font-size="12" fill="#eef1f7">AI & MCP</text>
+  <text class="jb" x="1154" y="393" font-size="12" fill="#eef1f7">AI &amp; MCP</text>
 </g>
 <g transform="translate(72,433)" class="fi" style="animation-delay:1.6s">
   <g transform="scale(0.917)" opacity="0.85"><path d="M0-11.5c5 0 9.2 3.4 9.2 7.9 0 3.4-2.4 5.9-5.6 5.9-2.4 0-4.2-1.5-4.2-3.6 0-1.7 1.2-2.9 2.8-2.9 1.1 0 2 .7 2 1.8 0 .8-.5 1.4-1.2 1.6" fill="none" stroke="#ff7a1a" stroke-width="2.1" stroke-linecap="round"/><path d="M-9.2-3.6C-9.2 3.9-4.6 10 1.2 11.5" fill="none" stroke="#ff7a1a" stroke-width="2.1" stroke-linecap="round"/><path d="M0-11.5c-5.1 0-9.2 3.5-9.2 7.9" fill="none" stroke="#ff7a1a" stroke-width="2.1" stroke-linecap="round"/></g>
