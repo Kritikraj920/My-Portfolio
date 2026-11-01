@@ -1,7 +1,7 @@
-<div align="center">
+﻿<div align="center">
 
 <!-- 🎬 HERO  video intro -->
-<img src="./hero.svg?v=3" alt="Hi, I'm Kritik Raj — Software Consultant &amp; Developer" width="100%"/>
+<img src="./hero.svg?v=3" alt="Hi, I'm Kritik Raj — Software Engineer &amp; Developer" width="100%"/>
 
 <br/><br/>
 
