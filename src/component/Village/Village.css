@@ -57,18 +57,25 @@
   padding: 12px 20px;
   background: rgba(23, 27, 40, 0.95);
   border-top: 1px solid rgba(255, 255, 255, 0.06);
+  line-height: 1.5;
 }
 
 .footer-desc {
   font-size: 0.88rem;
+  line-height: 1.5;
   color: var(--text-muted);
+  flex: 1;
+  min-width: 240px;
 }
 
 .cron-tag {
   font-family: var(--font-mono);
   font-size: 0.75rem;
+  line-height: 1.4;
   color: var(--chakra-amber);
   background: rgba(255, 181, 46, 0.1);
   padding: 3px 8px;
   border-radius: 4px;
+  white-space: nowrap;
+  flex-shrink: 0;
 }

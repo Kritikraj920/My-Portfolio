@@ -18,7 +18,7 @@ export default function Contact() {
         <span className="section-kicker">💌 YOUR NEXT IDEA STARTS HERE</span>
         <h2>Let&apos;s Make Something <span className="gradient-text">Great.</span></h2>
         <p className="section-subtitle">
-          Have an enterprise project, software consulting opportunity, full-stack mission,
+          Have an enterprise project, software engineering opportunity, full-stack mission,
           or just want to say hello? My inbox is always open.
         </p>
       </div>

@@ -28,7 +28,7 @@ export default function Footer() {
         <div className="footer-bottom-row">
           <div className="footer-brand-meta">
             <span className="footer-brand-name">🍥 Kritik Raj</span>
-            <span className="footer-tagline">Software Consultant &amp; Developer · Gurugram, India</span>
+            <span className="footer-tagline">Software Engineer &amp; Developer · Gurugram, India</span>
           </div>
 
           <div className="footer-links">

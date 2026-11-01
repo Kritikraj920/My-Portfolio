@@ -31,7 +31,7 @@ export default function Navbar() {
             <span className="brand-name">
               Kritik Raj<span className="brand-dot">.</span>
             </span>
-            <span className="brand-tag">SOFTWARE CONSULTANT &amp; DEV</span>
+            <span className="brand-tag">SOFTWARE ENGINEER &amp; DEV</span>
           </div>
         </a>
 

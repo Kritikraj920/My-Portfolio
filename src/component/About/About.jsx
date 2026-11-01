@@ -67,7 +67,7 @@ export default function About() {
           <span className="section-kicker">🍥 A LITTLE ABOUT ME</span>
           <h2>Curiosity is my <span className="gradient-text">superpower.</span></h2>
           <p className="section-subtitle">
-            I&apos;m a software consultant based in Gurugram, India, working at the intersection
+            I&apos;m a software engineer based in Gurugram, India, working at the intersection
             of technology, process improvement, and problem solving. I enjoy making complicated
             work feel simple—with dependable applications and automation that teams genuinely rely on.
           </p>
@@ -166,7 +166,7 @@ export default function About() {
                 <span className="company-logo-badge">GT</span>
                 <div>
                   <h3>Grant Thornton Bharat LLP</h3>
-                  <span className="role-title">Consultant · Gurugram, Haryana</span>
+                  <span className="role-title">Software Engineer · Gurugram, Haryana</span>
                 </div>
               </div>
               <span className="timeline-date-pill">30 Jun 2025 — Present</span>
@@ -290,9 +290,6 @@ export default function About() {
             <h3>Bachelor of Engineering (B.E.)</h3>
             <p className="edu-field">Electronic and Computer Engineering</p>
             <span className="edu-institute">M.B.M. University · Jodhpur</span>
-            <div className="edu-score-pill">
-              <strong>6.7 CGPA</strong>
-            </div>
           </div>
 
           <div className="education-card glass-panel">
@@ -300,9 +297,6 @@ export default function About() {
             <h3>Diploma</h3>
             <p className="edu-field">Computer Science and Engineering</p>
             <span className="edu-institute">Government Polytechnic College · Jodhpur</span>
-            <div className="edu-score-pill">
-              <strong>79.19% Score</strong>
-            </div>
           </div>
         </div>
       </section>

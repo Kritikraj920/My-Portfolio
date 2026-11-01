@@ -21,7 +21,7 @@ export default function Home() {
           <span className="chakra-core" />
           <span>GURUGRAM, HARYANA (28.4595° N)</span>
         </span>
-        <span className="rank-badge">🍥 SOFTWARE CONSULTANT @ GRANT THORNTON</span>
+        <span className="rank-badge">🍥 SOFTWARE ENGINEER @ GRANT THORNTON</span>
       </div>
 
       {/* Main Title */}
@@ -32,7 +32,7 @@ export default function Home() {
           with a little <span className="gradient-text">magic.</span>
         </h1>
         <p className="hero-desc">
-          I&apos;m <strong>Kritik Raj</strong> — a Software Consultant turning complex workflows
+          I&apos;m <strong>Kritik Raj</strong> — a Software Engineer turning complex workflows
           into thoughtful, reliable digital experiences, enterprise automation platforms,
           and governed AI Copilot integrations.
         </p>
@@ -83,7 +83,7 @@ export default function Home() {
         <div className="hero-svg-wrapper">
           <img
             src={heroSvg}
-            alt="Kritik Raj — Software Consultant & Developer hero animation"
+            alt="Kritik Raj — Software Engineer & Developer hero animation"
             className="hero-svg-img"
             loading="eager"
           />
@@ -110,7 +110,7 @@ export default function Home() {
           <div className="quick-stats-row">
             <div className="quick-stat">
               <strong>Grant Thornton</strong>
-              <span>Consultant</span>
+              <span>Software Engineer</span>
             </div>
             <div className="quick-stat-divider">/</div>
             <div className="quick-stat">
