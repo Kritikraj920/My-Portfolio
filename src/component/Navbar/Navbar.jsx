@@ -3,6 +3,7 @@ import './Style.css'
 
 const navLinks = [
   ['About', '#about'],
+  ['Sage Canvas', '#shinobi-canvas'],
   ['Experience', '#experience'],
   ['Skills', '#skills'],
   ['Ninja ID', '#ninja-id'],
@@ -10,7 +11,7 @@ const navLinks = [
   ['Contact', '#contact'],
 ]
 
-export default function Navbar() {
+export default function Navbar({ onWatchIntro }) {
   const [menuOpen, setMenuOpen] = useState(false)
   const [scrolled, setScrolled] = useState(false)
 
@@ -52,6 +53,19 @@ export default function Navbar() {
         </button>
 
         <div className={`nav-links${menuOpen ? ' is-open' : ''}`}>
+          {onWatchIntro && (
+            <button
+              type="button"
+              className="nav-intro-btn"
+              onClick={() => {
+                setMenuOpen(false);
+                onWatchIntro();
+              }}
+              title="Watch Cinematic Story Intro"
+            >
+              <span>🎬 Story Intro</span>
+            </button>
+          )}
           {navLinks.map(([label, href]) => (
             <a
               key={href}

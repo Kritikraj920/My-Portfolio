@@ -89,6 +89,18 @@
   margin-top: 10px;
 }
 
+.intro-cta-btn {
+  background: linear-gradient(135deg, #ff7a1a 0%, #ff9e42 50%, #ffb52e 100%) !important;
+  box-shadow: 0 4px 22px rgba(255, 122, 26, 0.5) !important;
+  color: #0b0d13 !important;
+  animation: intro-glow-pulse 3s infinite;
+}
+
+@keyframes intro-glow-pulse {
+  0%, 100% { box-shadow: 0 4px 20px rgba(255, 122, 26, 0.4); }
+  50% { box-shadow: 0 6px 32px rgba(255, 122, 26, 0.75); }
+}
+
 .hero-focus-tags {
   display: flex;
   flex-wrap: wrap;

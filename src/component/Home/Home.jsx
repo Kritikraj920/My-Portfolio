@@ -12,7 +12,7 @@ const focusAreas = [
   'REST APIs & Scalable DBs',
 ]
 
-export default function Home() {
+export default function Home({ onWatchIntro }) {
   return (
     <section className="hero-section section-wrap" id="hero">
       {/* Top Banner Tag */}
@@ -39,7 +39,17 @@ export default function Home() {
 
         {/* Action CTAs */}
         <div className="hero-cta-group">
-          <a className="ninja-btn ninja-btn-primary" href="#about">
+          {onWatchIntro && (
+            <button
+              className="ninja-btn ninja-btn-primary intro-cta-btn"
+              type="button"
+              onClick={onWatchIntro}
+            >
+              <span>🎬 Watch Story Intro</span>
+              <span className="icon">▶</span>
+            </button>
+          )}
+          <a className="ninja-btn ninja-btn-secondary" href="#about">
             <span>Explore Shinobi Journey</span>
             <span className="icon">↘</span>
           </a>
